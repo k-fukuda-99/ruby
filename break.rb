@@ -7,3 +7,14 @@ while i <= 10 do
   puts i
   i += 1 # iの数値に1を加えたい時は、i = i +1と書く代わりに、i += 1と書くことができます。
 end
+
+i = 4
+while i <= 15 do
+  if i == 10
+    puts "処理を終わります"
+    break
+  end
+  puts i
+  i += 4
+end
+
